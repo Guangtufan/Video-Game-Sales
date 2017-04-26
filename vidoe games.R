@@ -211,25 +211,3 @@ ggplot(vg_m, aes(x=Year, y=Sales, fill=Company)) +
   scale_fill_brewer(palette = 'Set3') +
   facet_grid(Market~.) +
   theme(legend.position=c(0.1,0.9))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
