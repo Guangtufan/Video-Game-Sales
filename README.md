@@ -41,4 +41,13 @@ Rank of games don't have significantly difference among companies, genres or pub
 ![rank-genre](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/rank-genre.png)
 ![rank-publisher](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/rank-publisher.png)  
 But games released during 1984-1990 have better rank (i.e. saled more copies) than games released in other years. Golden Age of Video Games ?? (lol)
-![rank-year](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/rank-year.png)  
+![rank-year](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/rank-year.png) 
+
+### Sales
+![sale-company](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-company.png)
+![sale-company](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-company%202.png)  
+Sony has the most sum sales copies(unit is hundred of thousand), while Nintendo and Nintendo and Microsoft rank at 2nd and 3rd seperately. But, in terms of average sale copies(unit is hundred of thousand) per game, Nintendo got the 1st place while Microsoft and Sony got 2nd and 3rd.
+![sale-genre](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-genre.png)
+![sale-genre2](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-genre%202.png)  
+According to total sales, the best popular game genre are _Action_, _Sports_ and _Shooter_, while in average sales only _Platform_ and _Shooter_ surpass 100,000 sale copies per game.
+
