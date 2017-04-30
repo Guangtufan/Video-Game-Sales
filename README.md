@@ -49,5 +49,13 @@ But games released during 1984-1990 have better rank (i.e. saled more copies) th
 Sony has the most sum sales copies(unit is hundred of thousand), while Nintendo and Nintendo and Microsoft rank at 2nd and 3rd seperately. But, in terms of average sale copies(unit is hundred of thousand) per game, Nintendo got the 1st place while Microsoft and Sony got 2nd and 3rd.
 ![sale-genre](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-genre.png)
 ![sale-genre2](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-genre%202.png)  
-According to total sales, the best popular game genre are _Action_, _Sports_ and _Shooter_, while in average sales only _Platform_ and _Shooter_ surpass 100,000 sale copies per game.
+According to total sales, the best popular game genre are _Action_, _Sports_ and _Shooter_, while in average sales only _Platform_ and _Shooter_ surpass 100,000 sale copies per game.  
+![sale-year](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-year.png)  
+![sale-year2](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-year%202.png)  
+Though, no matter release and sales in 21st century presented a properous scene, when it comes to average level 1984-1990 stands out again. So which is the _Golden Age_? 21st century or 1984-1990?
+
+### Chanhes as time goes by
+![sale-year-company](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-year-company%202.png)  
+The first appearance of the three major companies(i.e. Sony, Nintendo and Microsoft) is in 1983, Nintendo and immediately occupied more than 60% of video game market. Nintendo kept increase of marketshare untile sony joined. Then the video game market is almost divided into two parts--Nintendo and Sony. But as Microsoft joined in 2000, the marketshare gradually is divided into three parts. The previous platform (i.e.in _Others_ group) nearly faded out after 21st century, while only PC is still competing with other three companies. And In recent years, Nintendo is shirinkaging while Sony and Microsoft are expanding.
+![sale-year-genre](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-year-genre%202.png)
 
