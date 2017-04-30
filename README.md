@@ -54,8 +54,19 @@ According to total sales, the best popular game genre are _Action_, _Sports_ and
 ![sale-year2](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-year%202.png)  
 Though, no matter release and sales in 21st century presented a properous scene, when it comes to average level 1984-1990 stands out again. So which is the _Golden Age_? 21st century or 1984-1990?
 
-### Chanhes as time goes by
+### Market
+
+
+### Changes as time goes by
 ![sale-year-company](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-year-company%202.png)  
 The first appearance of the three major companies(i.e. Sony, Nintendo and Microsoft) is in 1983, Nintendo and immediately occupied more than 60% of video game market. Nintendo kept increase of marketshare untile sony joined. Then the video game market is almost divided into two parts--Nintendo and Sony. But as Microsoft joined in 2000, the marketshare gradually is divided into three parts. The previous platform (i.e.in _Others_ group) nearly faded out after 21st century, while only PC is still competing with other three companies. And In recent years, Nintendo is shirinkaging while Sony and Microsoft are expanding.
+![sale-year-genre](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-year-genre.png)
 ![sale-year-genre](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-year-genre%202.png)
+
+![sale-year-market](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-year-market.png)
+![sale-year-market2](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-year-market%202.png)  
+We can see from above two bar plots that consumenr from North America contribute most to the total sales of video games. And though Japanese consumers keep a relatively stable contribution to the total sales, as more copies bought by and consumers from Europe and other ares, the proportion of Japanese Sales to global sales keep decreasing. In the meantime, European sales is catching up North American sales and may become biggest market in the future.  
+
+![sale-market-year-company](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/sale-year-marks-company.png)
+
 
