@@ -28,7 +28,7 @@ vg_m$Market[vg_m$Market == 'Other_Sales'] <- 'Other'
 
 ### Release
 ![Release of Years](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/release%20of%20years.png)  
-* There are three times dramatic increase of release, 1995-1998, 2000-2002 and 2006-2008 seperately. And release are decreasing in recent years.
+* There are three times dramatic increase of release, 1995-1998, 2000-2002 and 2006-2008 respectively. And release are decreasing in recent years.
 
 ![Release of Genres](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/release%20of%20genres.png)  
 * Top3 popular game genres are _Action_, _Sports_ and _Misc_   
