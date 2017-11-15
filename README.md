@@ -1,11 +1,12 @@
 # Video-Game-Sales
 This is a video games sales datasets, recording sales and related information from 1980-2016. Games in this dataset have sale copies more than 100,000
 #### import dataset into R and tidy data
->videoGames <- read.csv("videogamesales.csv", stringsAsFactors = F)  
+```R
+videoGames <- read.csv("videogamesales.csv", stringsAsFactors = F)  
 videoGames <- videoGames[videoGames$Global_Sales >= 0.1,] # select games sold more than 100,000 copies  
 vg <- videoGames  
 vg$Year <- as.numeric(vg$Year)  
-
+```
 ### Create variable _Company_, _Market_
 1. __Company__
 >vg$Company[vg$Platform %in% c('3DS','DS','GB','GBA','GC','N64','NES','SNES','Wii','WiiU')] <- 'Nintendo'  
