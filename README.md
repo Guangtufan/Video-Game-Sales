@@ -9,14 +9,16 @@ vg$Year <- as.numeric(vg$Year)
 ```
 ### Create variable _Company_, _Market_
 1. __Company__
->vg$Company[vg$Platform %in% c('3DS','DS','GB','GBA','GC','N64','NES','SNES','Wii','WiiU')] <- 'Nintendo'  
+```R
+vg$Company[vg$Platform %in% c('3DS','DS','GB','GBA','GC','N64','NES','SNES','Wii','WiiU')] <- 'Nintendo'  
 vg$Company[vg$Platform == 'PC'] <- 'PC'  
 vg$Company[vg$Platform %in% c('PS','PS2','PS3','PS4','PSP','PSV')] <- 'Sony'  
 vg$Company[vg$Platform %in% c('X360', 'XB', 'XOne')] <- 'Microsoft'  
 vg$Company[vg$Platform %in% c(2600, 'DC','GEN','NG','TG16','WS','SAT','SCD')] <- 'Others'   
-
+```
 2. __Market__
->library(reshape2)  
+```R
+library(reshape2)  
 vg_sales <- vg[,c(1,4,5,7,8,9,10,12)]  
 vg_m <- melt(vg_sales, id=c('Rank', 'Year', 'Genre', 'Company'))  
 names(vg_m)[5] <- 'Market'  
@@ -26,7 +28,7 @@ vg_m$Market[vg_m$Market == 'NA_Sales'] <- 'North America'
 vg_m$Market[vg_m$Market == 'EU_Sales'] <- 'Europe'  
 vg_m$Market[vg_m$Market == 'JP_Sales'] <- 'Japan'  
 vg_m$Market[vg_m$Market == 'Other_Sales'] <- 'Other'  
-
+```
 ### Release
 ![Release of Years](https://github.com/Guangtufan/Video-Game-Sales/blob/master/plots/release%20of%20years.png)  
 * There are three times dramatic increase of release, 1995-1998, 2000-2002 and 2006-2008 respectively. And release are decreasing in recent years.
